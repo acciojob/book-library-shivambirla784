@@ -1,39 +1,47 @@
-/*  your css code here. If applicable */
-.body{
+body {
 	background-color: #f8f8f8;
 }
 
-.book-library{
+.book-library {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #ffffff;
 }
 
-h1{
+h1 {
 	text-align: center;
 }
 
-.book{
+.book {
 	margin-bottom: 50px;
+	padding: 10px;
+	
 }
 
-.img{
+.img {
 	text-align: center;
 }
 
-.title{
+.title {
 	margin: 0px;
 }
 
-.author{
+.author {
 	color: rgb(119, 119, 119);
 	margin: 0px;
 }
 
-.book > .price{
+.price {
 	height: 25px;
 	padding-top: 7px;
 	background-color: rgb(46, 204, 113) !important;
 	border-radius: 7px;
 	text-align: center;
 	color: rgb(255, 255, 255) !important;
+}
+
+/* Additional check to force background-color on .price */
+.book > .price {
+	background-color: rgb(46, 204, 113) !important;
+	color: rgb(255, 255, 255) !important;
+	border-radius: 7px;
 }
