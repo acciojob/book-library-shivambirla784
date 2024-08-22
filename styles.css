@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+.body{
+	background-color: #f8f8f8;
+}
+
+.book-library{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+}
+
+h1{
+	text-align: center;
+}
+
+.book{
+	margin-bottom: 50px;
+}
+
+.img{
+	text-align: center;
+}
+
+.title{
+	display: block;
+	font-weight: bolder;
+}
+
+.author{
+	color: #777777;
+}
+
+.price{
+	height: 25px;
+	padding-top: 7px;
+	background-color: #2ecc71;
+	border-radius: 7px;
+	text-align: center;
+	color: white;
+}
