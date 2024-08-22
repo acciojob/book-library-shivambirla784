@@ -32,8 +32,8 @@ h1{
 .book > .price{
 	height: 25px;
 	padding-top: 7px;
-	background-color: rgb(46, 204, 113);
+	background-color: rgb(46, 204, 113) !important;
 	border-radius: 7px;
 	text-align: center;
-	color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255) !important;
 }
